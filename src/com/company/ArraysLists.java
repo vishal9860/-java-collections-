@@ -54,5 +54,18 @@ public class ArraysLists {
          arr.subList(0,3);//Returns a view of the portion of this list between the specified fromIndex, inclusive, and toIndex, exclusive.
          Object ob=arr.toArray();//This method is used to return an array containing all of the elements in the list in the correct order.
          System.out.println(ob);
+         System.out.println("program end");
     }
-}
+}/* output
+true
+40
+false
+last index of 40 is
+0
+ArrayList before removeAll() operation : [40, 50, 60, 25, 35, 45, 55, 80, 100]
+collection element to be removed[25, 30, 55, 45]
+ArrayList after removeAll() operation : [40, 50, 60, 35, 80, 100]
+Size of list = 6
+after inserting 50 at 0 positions
+[50, 50, 60, 35, 80, 100]
+*/
